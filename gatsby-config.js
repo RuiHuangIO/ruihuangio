@@ -7,8 +7,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Rui Huang's Blog (working title)`,
+    title: `Rui Huang`,
     author: `Rui Huang`,
+    description: 'Personal blog by Rui Huang. Just feel like building this.',
+    siteUrl: 'https://ruihuang.io',
   },
   plugins: [
     `gatsby-plugin-sass`,

@@ -2,6 +2,8 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { rhythm } from "../utils/typography"
 
+import SEO from "../components/SEO"
+
 import headerStyles from "./header.module.scss"
 
 const Header = () => {
@@ -22,6 +24,7 @@ const Header = () => {
         paddingTop: rhythm(1),
       }}
     >
+      <SEO />
       <h1>
         <Link
           className={headerStyles.title}
